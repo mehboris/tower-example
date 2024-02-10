@@ -2,7 +2,7 @@
 - name: Install Mysql package
   yum: name={{ item }} state=present
   with_items:
-   - mysql-server
+   - mysql-community-server
    - MySQL-python
    - libselinux-python
    - libsemanage-python
